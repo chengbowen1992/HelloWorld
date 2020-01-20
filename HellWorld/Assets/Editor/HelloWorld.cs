@@ -7,7 +7,7 @@ using UnityEditor;
 public class HelloWorld : Editor
 {
     [MenuItem("Build/Build Android")]
-    public static void CmdBuild()
+    public static bool CmdBuild()
     {
         EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTarget.Android);
         
@@ -19,6 +19,6 @@ public class HelloWorld : Editor
         }
 
         BuildPipeline.BuildPlayer(sceneList.ToArray(), "./HelloWorld.apk", BuildTarget.Android, BuildOptions.None);
-        
+        return true;
     }
 }
