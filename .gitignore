@@ -1,0 +1,45 @@
+build
+.gradle
+.idea
+*.ipr
+*.iws
+ball1android/bin
+ball1android/gen
+ball1android/build
+build
+*/build
+intermediates
+.classpath
+.project
+.settings
+*.iml
+local.properties
+.DS_Store
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+*/*.svd
+*/*.csproj
+*/*.pidb
+*/*.suo
+*/*.sln
+*/*.unityproj
+*/*.booproj
+.vscode
+
+# ============ #
+# OS generated #
+# ============ #
+*/*.DS_Store?
+*/.Spotlight-V100
+*/.Trashes
+*/ehthumbs.db
+*/Thumbs.db
+Library
+Temp
+temp
+obj
+/Unity/*.zip
+.vs
+assets/bin
+app/src/main/assets/bin
